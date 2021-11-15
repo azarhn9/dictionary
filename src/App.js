@@ -1,7 +1,7 @@
 
 import logo from './l2.png';
 import './App.css';
-import Dictionary from './Dictionary';
+import Search from './Search';
 export default function App() {
   return (
     <div className="App">
@@ -11,7 +11,7 @@ export default function App() {
 <img src={logo} className="App-logo" alt="logo" />
       </header>
       <main>
-        <Dictionary />
+        <Search />
       </main>
       <footer className="App-footer">
         <small>Coded by Azar Hosseininezhad</small>
