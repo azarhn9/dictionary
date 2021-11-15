@@ -10,9 +10,9 @@ export default function Phonetics(props) {
         target="_blank"
         rel="noreferrer"
       >
-        <div className="icon">🔊</div>
+        <div className="icon">🔊 {props.phonetic.text}</div>
       </a>
-      {props.phonetic.text}
+      
     </div>
   );
 }
