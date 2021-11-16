@@ -41,7 +41,7 @@ export default function Search() {
   return (
     <div className="SearchBar">
       <section>
-        <h1>English Dictionary</h1>
+        <div className="title">English Dictionary</div>
         <form onSubmit={dictionarySearch}>
           <input
             type="search"
